@@ -1,0 +1,24 @@
+.brandPanel{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1400px;
+  .text{
+    width: 394px;
+    margin: 19px;
+    font-size: 14px;
+    color:#86878B;
+    #bold{
+      font-size: 20px;
+      font-weight: bold;
+      color: #333333;
+    }
+  }
+
+      img{
+        height: 30px;
+
+      }
+
+
+}

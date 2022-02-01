@@ -1,0 +1,56 @@
+.features1-section{
+  background-image:linear-gradient(315deg, #6696e287, #e2786669),  url("../content/christoffer-engstrom-503481-unsplash@2x.png");
+  height:639px;
+  object-fit: contain;
+  background-position: center;
+  color: white;
+}
+.features1-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  .features-menu{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .square{
+      position: relative;
+      width: 100px;
+      height: 100px;
+      .centered {
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    top: 35%;
+    left: 25%;
+    transform: rotate(-45deg);
+          }
+    }
+    img{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  .text{
+    width: 50%;;
+     h2{
+       font-size: 36px;
+     }
+     p{
+       font-size: 14px;
+     }
+  }
+  .images{
+    width:  35%;
+    img{
+      height: 168px;
+    }
+    #blue{
+      width: 342px;
+    }
+  }
+}

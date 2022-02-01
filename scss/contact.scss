@@ -1,0 +1,104 @@
+.contact-section{
+  background: #E27866;
+
+}
+.contact-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0 50px 0;
+    .top{
+      color: white;
+      text-align: center;
+      h2{
+        font-size: 36px;
+        padding: 0 0 50px 0;}
+      p{
+        font-size: 14px;
+        padding-bottom: 27px; }
+      }
+
+      .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        padding: 4%;
+        // width: 390px;
+        // height: 314px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 6px #00000029;
+
+        .inputinfo{
+          display: flex;
+          flex-direction: column;
+
+          font-size: 12px;
+          input{
+            width: 260px;
+            margin: 33px 0 0px 0px;
+            padding: 0 0 5px 10px;
+            border: none;
+            border-bottom: 1px solid gray;
+            color: #1C1C1C;
+            font-size: 12px;
+          }
+          input:last-of-type{
+            margin: 33px 0 37px 0px;
+          }
+        }// input info
+
+        .radio-section{
+          display: flex;
+          align-items: center;
+          padding: 0px 0 30px 10px ;
+          width: 260px;
+          p{
+            font-size: 9px;
+            padding: 0 15px 0 10px;
+          }
+
+        .radio {
+          width: 11px;
+          height: 11px;
+          border: 1px solid #41D395;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+        .radio .checkmark{
+
+          width: 5px;
+          height: 5px;
+          border-radius: 50%;
+          background-color: #41D395;
+          display: none;
+        }
+        .radio input{
+          display: none;
+        }
+
+        .radio input:checked + .checkmark{
+          display: inline-block;
+        }
+
+
+
+      }// radio section
+
+
+        button{
+          width: 158px;
+          height: 48px;
+          border-radius: 10px;
+          color:#FFFFFF;
+          background: #41D395;
+          border: none;
+          font-weight: bold;
+          font-size: 15px;
+        }
+      }/// form
+}

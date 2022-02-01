@@ -1,0 +1,150 @@
+@media only screen and (max-width: 600px) {
+.navigation-content{
+    .main-nav a {
+      display: none;
+
+    }
+    #burger {
+    display: block;
+    margin-left: 60%;
+
+    font-size: 30px;
+  }
+}
+.first-content{
+flex-direction: column;
+padding: 3%;
+  .text{
+    width: 90%;
+    height: 47%;
+    overflow: scroll;
+  }
+  .enterinfo{
+    width: 90%;
+    height: 47%;
+
+  }
+}
+
+
+
+.features1-content{
+  flex-direction: column;
+  justify-content: flex-start;
+    .features-menu{
+      height: 100px;
+      display: flex;
+      flex-direction: row;
+    }
+
+  .text{
+    width: 90%;
+    height: 40%;
+    overflow: scroll;
+    h2{
+      font-size: 30px;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+.brand-content{
+  flex-direction: column;
+
+
+  .textbox{
+    text-align: center;
+    .text{
+
+      p{
+        text-align: center;
+
+      }
+    }
+  }
+
+    .imgbox{
+      padding-top: 5%;
+      width: 100%
+
+    }
+}
+
+
+
+.process-content{
+  .header{
+    p{
+      padding: 3%;
+    }
+  }
+  .containerbox{
+    flex-direction: column;
+    .box{
+      max-width: 100%;
+    }
+    p{
+      padding: 3%;
+    }
+  }
+}
+.pricing-content{
+  .pricing-header{
+    P{
+      padding: 0 3% 0 3%;
+    }
+  }
+  .tables{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+  }
+}
+.features2-content{
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5% 0 5%;
+  .imgbox{
+    #logo {
+      max-width: 285px;
+      padding-top: 30px;
+    }
+  }
+  .text{
+
+
+  }
+}
+
+
+.contact-content{
+  padding: 25PX 0 20PX 0 ;
+  .top{
+    h2{
+      padding: 0 0 10px 0;
+    }
+    p{
+      padding: 0 3% 3% 3%;
+    }
+  }
+}
+
+.footer-content{
+  flex-direction: column;
+  .icons{
+    padding: 3% 3% 0 3%;
+  }
+  p{
+    padding: 20px 0 20px 0;
+  }
+}
+} //// media

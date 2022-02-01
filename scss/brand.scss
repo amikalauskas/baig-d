@@ -1,0 +1,36 @@
+.brand-section{
+  background: #FFFFFF;
+  .brand-content{
+    display: flex;
+
+    align-items: center;
+    padding: 19px 0 19px 0 ;
+      .textbox{
+        display: flex;
+        flex-grow: 1;
+      .text{
+      h2{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: left;
+      }
+      p{
+        font-size: 14px;
+        color: #86878B;
+        
+        }
+    }
+  }
+    img{
+      height: 30px;
+
+    }
+    .imgbox{
+
+      display:flex;
+      flex-grow: 3;
+      justify-content: space-around;
+    }
+
+  }
+}//brand section
